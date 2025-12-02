@@ -75,23 +75,25 @@
 
 	</com.google.android.material.appbar.AppBarLayout>
 
-	<com.google.android.material.dockedtoolbar.DockedToolbarLayout
+	<!-- Replaced DockedToolbarLayout with a simple container so ReaderActionsView
+		 can show a custom floating card-style toolbar with rounded corners. -->
+	<FrameLayout
 		android:id="@+id/toolbar_docked"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:layout_gravity="bottom"
-		android:fitsSystemWindows="false"
-		app:cardBackgroundColor="?colorSurfaceContainer"
-		app:cardCornerRadius="12dp"
+		android:paddingBottom="8dp"
 		app:layout_insetEdge="bottom">
 
 		<org.koitharu.kotatsu.reader.ui.ReaderActionsView
 			android:id="@+id/actionsView"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:minHeight="?actionBarSize" />
+			android:minHeight="?actionBarSize"
+			app:layout_dodgeInsetEdges="bottom"
+			android:layout_margin="8dp" />
 
-	</com.google.android.material.dockedtoolbar.DockedToolbarLayout>
+	</FrameLayout>
 
 	<org.koitharu.kotatsu.reader.ui.ReaderToastView
 		android:id="@+id/toastView"
