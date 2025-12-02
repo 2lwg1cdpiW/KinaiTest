@@ -47,16 +47,6 @@ online content sources.**
     <img src="./metadata/en-US/images/tenInchScreenshots/2.png" alt="Tablet view" width="400"/>
 </div>
 
-### Localization
-
-<a href="https://hosted.weblate.org/engage/kotatsu/">
-<img src="https://hosted.weblate.org/widget/kotatsu/horizontal-auto.png" alt="Translation status" />
-</a>
-
-**[Kotatsu](https://github.com/KotatsuApp/Kotatsu) is localized in a number of different languages.**<br>
-**📌 If you would like to help improve these or add new languages,
-please head over to the [Weblate project page](https://hosted.weblate.org/engage/kotatsu/)**
-
 ### Contributing
 
 <br>
