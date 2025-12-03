@@ -438,9 +438,6 @@ class ReaderActivity :
     }
 
     override fun openMenu() {
-        if (supportFragmentManager.isStateSaved) {
-	        return
-        }
         viewModel.saveCurrentState(readerManager.currentReader?.getCurrentState())
         val currentMode = readerManager.currentMode ?: return
         router.showReaderConfigSheet(currentMode)
