@@ -75,12 +75,12 @@
 
 		<com.google.android.material.button.MaterialButton
 			android:id="@+id/button_options"
+			style="?materialIconButtonStyle"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_gravity="end|center_vertical"
 			android:contentDescription="@string/options"
-			app:icon="@drawable/abc_ic_menu_overflow_material"
-			app:iconSize="24dp" />
+			app:icon="@drawable/abc_ic_menu_overflow_material" />
 
     </com.google.android.material.appbar.MaterialToolbar>
 
