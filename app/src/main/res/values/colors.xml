@@ -32,4 +32,6 @@
 	<color name="background_sakura">#FFF8F8</color>
 	<color name="background_mamimi">#FFF8F7</color>
 	<color name="background_kanade">#F3F3F3</color>
+
+    <color name="ic_button_tint">#FFFFFF</color>
 </resources>
