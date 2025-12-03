@@ -30,7 +30,7 @@ jobs:
       - name: Restore Keystore from secret and validate
         run: |
           echo "Restoring keystore from secret..."
-          printf "%s" "${{ secrets.KEYSTORE_BASE64 }}" | base64 --decode > release-key.jks
+          printf "%s" "${KEYSTORE_BASE64}" | base64 --decode > release-key.jks
           echo "Keystore file size:"
           ls -lh release-key.jks
           file release-key.jks || true
