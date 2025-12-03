@@ -55,10 +55,6 @@ class AboutSettingsFragment : BasePreferenceFragment(R.string.about) {
 				true
 			}
 
-			AppSettings.KEY_LINK_WEBLATE -> {
-				openLink(R.string.url_weblate, preference.title)
-				true
-			}
 
 			AppSettings.KEY_LINK_GITHUB -> {
 				openLink(R.string.url_github, preference.title)

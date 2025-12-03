@@ -825,7 +825,6 @@ class AppSettings @Inject constructor(@ApplicationContext context: Context) {
 		const val KEY_APP_VERSION = "app_version"
 		const val KEY_IGNORE_DOZE = "ignore_dose"
 		const val KEY_TRACKER_DEBUG = "tracker_debug"
-		const val KEY_LINK_WEBLATE = "about_app_translation"
 		const val KEY_LINK_TELEGRAM = "about_telegram"
 		const val KEY_LINK_GITHUB = "about_github"
 		const val KEY_LINK_MANUAL = "about_help"
