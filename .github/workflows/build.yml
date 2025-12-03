@@ -10,4 +10,8 @@ jobs:
   build_release:
     name: Trigger Release builds 🚀
     uses: ./.github/workflows/build_release.yml
-    
+    with:
+      KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
+      KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+      KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+      KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
